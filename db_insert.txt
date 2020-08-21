@@ -1,0 +1,128 @@
+
+
+
+//alter table food rename column stroe_name to store_name;
+
+//alter table food modify food_name varchar2(50);
+//alter table food modify img varchar2(100);
+
+
+insert into store values('중화가정', '010-00001', 'KIM', 0);
+insert into store values('salady', '010-00002', 'YUN', 0);
+insert into store values('더큰도시락', '010-00003', 'MA', 0);
+insert into store values('제라진돈까스', '010-00004', 'PARK', 0);
+
+insert into food values('시그니처콥샐러디', 5700 , 2 , 'salady', '300cal', './../food_Menu//Salad//시그니처콥샐러디.png');
+
+insert into food values('그린콥샐러디', 4700 , 3 , 'salady', '400cal',
+ './../food_Menu//Salad//그린콥샐러디.png');
+
+insert into food values('리코타치즈샐러디', 4500 , 2 , 'salady', '400cal', './../food_Menu//Salad//리코타치즈샐러디.png');
+
+insert into food values('연어샐러디', 6000 , 3 , 'salady', '400cal',
+'./../food_Menu//Salad//연어샐러디.png');
+
+insert into food values('채소볼', 3000 , 3 , 'salady', '400cal', 
+'./../food_Menu//Salad//채소볼.png');
+
+insert into food values('곡물볼', 3000 , 1 , 'salady', '300cal',
+ './../food_Menu//Salad//곡물볼.png');
+
+insert into food values('에그베이컨샌드', 4000 , 2 , 'salady', '400cal', 
+'./../food_Menu//Salad//에그베이컨샌드.png');
+
+insert into food values('치킨토마토샌드', 4300 , 3 , 'salady', '400cal', './../food_Menu//Salad//치킨토마토샌드.png');
+
+insert into food values('치킨랩', 4500 , 3 , 'salady', '500cal', './../food_Menu//Salad//치킨랩.png');
+
+
+
+insert into food values('짜장면', 5700 , 2 , '중화가정', '1100cal',
+'./../food_Menu//Chinese//짜장면.jpg');
+
+insert into food values('쟁반짜장', 7000 , 4 , '중화가정', '1800cal',
+'./../food_Menu//Chinese//쟁반짜장.jpg');
+
+insert into food values('게살볶음밥', 4500 , 3 , '중화가정', '1200cal', 
+'./../food_Menu//Chinese//게살볶음밥.jpg');
+
+insert into food values('짬뽕', 6000 , 2 , '중화가정', '1250cal', './../food_Menu//Chinese//짬뽕.jpg');
+
+insert into food values('짬뽕밥', 4500 , 2 , '중화가정', '1100cal', 
+'./../food_Menu//Chinese//짬뽕밥.jpg');
+
+insert into food values('새우볶음밥', 4500 , 4 , '중화가정', '1100cal', 
+'./../food_Menu//Chinese/ /새우볶음밥.jpg');
+
+insert into food values('탕수육', 4500 , 3 , '중화가정', '800cal',
+ './../food_Menu//Chinese//탕수육.jpg');
+
+insert into food values('깐풍기', 4500 , 3 , '중화가정', '900cal',
+ './../food_Menu//Chinese//깐풍기.jpg');
+
+insert into food values('군만두', 4500 , 3 , '중화가정', '800cal',
+ './../food_Menu//Chinese//군만두.jpg');
+
+
+
+insert into food values('치킨마요', 4500 , 3 , '더큰도시락', '1200cal',
+ './../food_Menu//RiceBox//치킨마요.jpg');
+
+insert into food values('참치마요', 4500 , 3 , '더큰도시락', '1200cal',
+ './../food_Menu//RiceBox//참치마요.jpg');
+
+insert into food values('비빔밥', 4700 , 3 , '더큰도시락', '1100cal',
+ './../food_Menu//RiceBox//비빔밥.jpg');
+
+insert into food values('스팸덮밥', 4800 , 4 , '더큰도시락', '1300cal',
+ './../food_Menu//RiceBox//스팸덮밥.jpg');
+
+insert into food values('제육덮밥', 4800 , 3 , '더큰도시락', '1200cal',
+ './../food_Menu//RiceBox//제육덮밥.jpg');
+
+insert into food values('돈까스카레', 5000 , 5 , '더큰도시락', '1300cal',
+ './../food_Menu//RiceBox//돈까스카레.jpg');
+
+insert into food values('육개장', 4500 , 3 , '더큰도시락', '1100cal',
+ './../food_Menu//RiceBox//육개장.jpg');
+
+insert into food values('치킨박스', 6000 , 5 , '더큰도시락', '1500cal',
+ './../food_Menu//RiceBox//치킨박스.jpg');
+
+insert into food values('미역국', 2500 , 5 , '더큰도시락', '300cal',
+ './../food_Menu//RiceBox//미역국.jpg');
+
+
+
+insert into food values('왕돈까스', 6000 , 4 , '제라진돈까스', '1500cal',
+ './../food_Menu//Cutlet//왕돈까스.jpg');
+
+insert into food values('등심카츠', 6000 , 4 , '제라진돈까스', '1500cal',
+ './../food_Menu//Cutlet//등심카츠.jpg');
+
+insert into food values('안심카츠', 6000 , 4 , '제라진돈까스', '1500cal',
+ './../food_Menu//Cutlet//안심카츠.jpg');
+
+insert into food values('치즈돈까스', 7000 , 4 , '제라진돈까스', '1600cal',
+ './../food_Menu//Cutlet//치즈돈까스.jpg');
+
+insert into food values('김치돈카츠나베', 6000 , 4 , '제라진돈까스', '1550cal',
+ './../food_Menu//Cutlet//김치돈카츠나베.jpg');
+
+insert into food values('가쓰오우동', 5000 , 3 , '제라진돈까스', '1100cal',
+ './../food_Menu//Cutlet//가쓰오우동.jpg');
+
+insert into food values('냉모밀', 5000 , 3 , '제라진돈까스', '1000cal',
+ './../food_Menu//Cutlet//냉모밀.jpg');
+
+insert into food values('칠성사이다', 1500 , 1 , '제라진돈까스', '500cal',
+ './../food_Menu//Cutlet//칠성사이다.jpg');
+
+insert into food values('코카콜라', 6000 , 1 , '제라진돈까스', '500cal',
+ './../food_Menu//Cutlet//코카콜라.jpg');
+
+
+
+CREATE SEQUENCE seq START WITH 1 INCREMENT BY 1 MAXVALUE 300 CYCLE NOCACHE;
+
+INSERT INTO sol.foodorder(order_num) VALUES(seq.NEXTVAL);
